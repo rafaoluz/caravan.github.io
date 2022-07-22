@@ -1,0 +1,43 @@
+body {
+    padding-top: 75px;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+                0 2px 8px 0 rgba(0,0,0,.05);
+}
+
+.col-lg-5 .btn-primary {
+    cursor: pointer;
+}
+
+#home-quote {
+    background: url('../img/bg-quote.jpg') center center;
+    background-size: cover;
+}
+
+@media (max-width: 768px ) {
+    #home-quote .display-4 {
+        font-size: 2.5rem;
+    }
+    .fixed-top {
+        position: relative;
+    }
+    body {
+        padding-top: 0px ;
+    }
+}
+
+.lista-plano li + li {
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.lista-plano li {
+    padding: 1rem;
+}
+
+.btn-primary {
+    cursor: pointer;
+}
+
+
